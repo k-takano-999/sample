@@ -11,7 +11,6 @@ def calculate_factorial(n):
         return 1
     return n * calculate_factorial(n - 1)
 
-# Main execution
 if __name__ == "__main__":
     user_name = "World"
     print(greet_user(user_name))
